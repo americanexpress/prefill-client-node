@@ -1,0 +1,20 @@
+{
+    "rootUrl": "",
+    "authentication": {
+        "clientKey": "",
+        "clientSecret": ""
+    },
+    "mutualAuth": {
+        "privateKey": "",
+        "publicCert": ""
+    },
+    "httpProxy": {
+        "isEnabled": true,
+        "host": "",
+        "port": ""
+    },
+
+    "payloadEncryption": {
+        "publicKeyCert": ""
+    }
+}

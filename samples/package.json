@@ -1,0 +1,32 @@
+{
+  "name": "@americanexpress/prefill-client-node-samples",
+  "version": "1.0.0",
+  "private": "true",
+  "description": "Samples for Amex Prefill API SDK",
+  "main": "index.js",
+  "author": "American Express",
+  "keywords": [
+    "Amex",
+    "rest",
+    "api",
+    "sdk",
+    "prefill",
+    "offers",
+    "samples"
+  ],
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {
+    "jest": "^24.7.1"
+  },
+  "engines": {
+    "node": ">=10.21.0"
+  }
+}
