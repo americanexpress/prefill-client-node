@@ -43,7 +43,7 @@ prefill-client-node sdk will support Node Version 6 or higher and NPM version 3.
 Sample for call back support :
 
 ```js
-var prefillclient = require(@americanexpress/prefill-client-node);
+var prefillclient = require('@americanexpress/prefill-client-node');
 var config = {}
 prefillclient.configure(config);
 
@@ -68,7 +68,7 @@ SDK needs to be configured with OAuth, Mutual Auth and Payload encryption config
 
 ```js
 const fs = require('fs');
-const prefillclient = require(@americanexpress/prefill-client-node);
+const prefillclient = require('@americanexpress/prefill-client-node');
 const config = {
     //-- required, based on the environment(test, production) it will change, Amex will provide the root URls
     rootUrl: 'api.qa2s.americanexpress.com', 
@@ -137,7 +137,7 @@ Sample Resposne :
   status: 'approved',
   expires_in: '3599', // token expirty in seconds, you can cache the token for the amount of time specified.
   token_type: 'BearerToken',
-  access_token: 'wJeW9CPT0DbrqBjrTN1xbMQZkae2'
+  access_token: 'access_token_example'
 }
 
 ```
