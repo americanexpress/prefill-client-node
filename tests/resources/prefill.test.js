@@ -89,7 +89,7 @@ const request = {
 
 const response = {
     "prefill_info": {
-        "applicant_request_token": "eyJhbGciOiJSUzI1NiJ9",
+        "applicant_request_token": "app request token mock",
         "applicant_request_token_expires_in": "3600000"
     }
 }
